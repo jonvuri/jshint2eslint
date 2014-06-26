@@ -1,3 +1,3 @@
-# json-map
+# jshint2eslint
 
-Utility to map one JavaScript object to another.
+Map jshint configurations to eslint configurations
