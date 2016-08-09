@@ -197,7 +197,7 @@ var maps = [
 module.exports = function jshint2eslint( jshintConfig ) {
 
 	return maps.reduce( function ( eslintConfig, map ) {
-		map( jshintConfig, eslintConfig )
+		return map( jshintConfig, eslintConfig )
 	}, {} )
 
 }
